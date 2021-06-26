@@ -89,7 +89,7 @@ img {
 
 /* SITE HEADER */
 .site-header {
-  position: relative;
+  position: fixed;
   z-index: 99;
   left: 0;
   top: 0;
@@ -97,6 +97,10 @@ img {
   height: auto;
   padding-top: 32px;
   padding-bottom: 32px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px 1px rgba(51,50,50,0.4);
+  -webkit-box-shadow: 0px 2px 8px 1px rgba(51,50,50,0.4);
+  -moz-box-shadow: 0px 2px 8px 1px rgba(51,50,50,0.4);
 }
 
 .site-header__container {
@@ -162,6 +166,12 @@ img {
   visibility: visible;
   top: 0;
   transition: top 0.5s ease-in-out;
+}
+
+
+/* MAIN */
+.index-main {
+  padding-top: 90px;
 }
 
 
@@ -242,6 +252,7 @@ img {
   margin: 0;
   margin: 0 auto;
   margin-bottom: 13px;
+  white-space: nowrap;
   font-family: 'Fraunces 9pt';
   font-style: normal;
   font-weight: 900;
